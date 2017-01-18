@@ -15,8 +15,8 @@
   <body>
     <div class="wrapper">
       <header>
-        <h1>{{ site.title }}</h1>
-        <p>{{ site.sub-title }}</p>
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.sub-title }}</p>
         <!-- <p class="view"><a href="http://github.com/orderedlist/minimal">View the Project on GitHub <small>orderedlist/minimal</small></a></p> -->
         <ul>
           <li><a href="https://github.com/orderedlist/minimal/zipball/master">Download! <strong>ZIP File</strong></a></li>
@@ -28,7 +28,7 @@
 				{{ content }}
       </section>
       <footer>
-        <p>This project is maintained by <a href="http://github.com/orderedlist">you</a></p>
+        <p>This project is maintained by <a href="http://github.com/{{ author }}">{{ author }}</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
         <p><small>Modified by me</small></p>
 				<i class="fa fa-camera-retro"></i> fa-camera-retro
