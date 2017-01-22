@@ -13,6 +13,7 @@ function gestureStart() {
     if (metas[i].name == "viewport") {
       // metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
       metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=3.2";
+			// max-scale change seems no to working?
     }
   }
 }
