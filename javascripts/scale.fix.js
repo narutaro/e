@@ -11,8 +11,8 @@ if (navigator.userAgent.match(/iPhone/i)) {
 function gestureStart() {
   for (i=0; i<metas.length; i++) {
     if (metas[i].name == "viewport") {
-      // metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
-      metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=3.2";
+      metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=1.6";
+      // metas[i].content = "width=device-width, minimum-scale=0.25, maximum-scale=3.2";
 			// max-scale change seems no to working?
     }
   }
