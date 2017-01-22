@@ -9,5 +9,5 @@ author: narutaro
 - `Feb. 09, 2016` [Setting up Neo4j](ab945c7690a4c64b19f2.html)
 - `Jan. 21, 2016` [nfsen install on ubuntu 14.04](64d3b6edd16625ca3e58.html)
 - `Dec. 10, 2015` [Analyzing Netflow graph with Neo4j](8c4518bfac04e042699.html)
-- `Sep. 21, 2015` [How to rotate logs](978ad187b286ddad4cfb.html)
+- `Sep. 21, 2015` [How to rotate logs](978ad187b286ddad4cfb)
 
