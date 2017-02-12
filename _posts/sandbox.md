@@ -6,6 +6,3 @@
 | col 2 is      | centered      |
 | zebra stripes | are neat      |
 
-{% for post in site.posts %}
-  <li>&raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
